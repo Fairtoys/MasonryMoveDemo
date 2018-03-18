@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23514E2C205CA2CB008A162A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23514E2B205CA2CB008A162A /* AppDelegate.m */; };
+		23514E2F205CA2CB008A162A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23514E2E205CA2CB008A162A /* ViewController.m */; };
+		23514E32205CA2CB008A162A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23514E30205CA2CB008A162A /* Main.storyboard */; };
+		23514E34205CA2CC008A162A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23514E33205CA2CC008A162A /* Assets.xcassets */; };
+		23514E37205CA2CC008A162A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23514E35205CA2CC008A162A /* LaunchScreen.storyboard */; };
+		23514E3A205CA2CC008A162A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23514E39205CA2CC008A162A /* main.m */; };
+		23514E45205D5064008A162A /* NSObject+KeyValueStoreUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 23514E44205D5064008A162A /* NSObject+KeyValueStoreUtil.m */; };
+		23514E4B205D6B56008A162A /* HJLayoutAndPanViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 23514E4A205D6B56008A162A /* HJLayoutAndPanViewUtils.m */; };
+		706198F7C369C91735E4A325 /* libPods-MasonryMove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7F1FDDEAA83490AFF2A34 /* libPods-MasonryMove.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23514E27205CA2CB008A162A /* MasonryMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23514E2A205CA2CB008A162A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23514E2B205CA2CB008A162A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23514E2D205CA2CB008A162A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23514E2E205CA2CB008A162A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23514E31205CA2CB008A162A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23514E33205CA2CC008A162A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23514E36205CA2CC008A162A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23514E38205CA2CC008A162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23514E39205CA2CC008A162A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23514E43205D5064008A162A /* NSObject+KeyValueStoreUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeyValueStoreUtil.h"; sourceTree = "<group>"; };
+		23514E44205D5064008A162A /* NSObject+KeyValueStoreUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeyValueStoreUtil.m"; sourceTree = "<group>"; };
+		23514E49205D6B56008A162A /* HJLayoutAndPanViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLayoutAndPanViewUtils.h; sourceTree = "<group>"; };
+		23514E4A205D6B56008A162A /* HJLayoutAndPanViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLayoutAndPanViewUtils.m; sourceTree = "<group>"; };
+		27E7F1FDDEAA83490AFF2A34 /* libPods-MasonryMove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryMove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832F773639FDDF65D20964CE /* Pods-MasonryMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryMove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryMove/Pods-MasonryMove.debug.xcconfig"; sourceTree = "<group>"; };
+		9915EB2328F417EED27C1973 /* Pods-MasonryMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryMove.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryMove/Pods-MasonryMove.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23514E24205CA2CB008A162A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706198F7C369C91735E4A325 /* libPods-MasonryMove.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23514E1E205CA2CB008A162A = {
+			isa = PBXGroup;
+			children = (
+				23514E29205CA2CB008A162A /* MasonryMove */,
+				23514E28205CA2CB008A162A /* Products */,
+				B76F5B4ACC593CA440211878 /* Pods */,
+				886BDBF8FE0A79F7A5CA659E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23514E28205CA2CB008A162A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23514E27205CA2CB008A162A /* MasonryMove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23514E29205CA2CB008A162A /* MasonryMove */ = {
+			isa = PBXGroup;
+			children = (
+				23514E2A205CA2CB008A162A /* AppDelegate.h */,
+				23514E2B205CA2CB008A162A /* AppDelegate.m */,
+				23514E2D205CA2CB008A162A /* ViewController.h */,
+				23514E2E205CA2CB008A162A /* ViewController.m */,
+				23514E30205CA2CB008A162A /* Main.storyboard */,
+				23514E33205CA2CC008A162A /* Assets.xcassets */,
+				23514E35205CA2CC008A162A /* LaunchScreen.storyboard */,
+				23514E38205CA2CC008A162A /* Info.plist */,
+				23514E39205CA2CC008A162A /* main.m */,
+				23514E43205D5064008A162A /* NSObject+KeyValueStoreUtil.h */,
+				23514E44205D5064008A162A /* NSObject+KeyValueStoreUtil.m */,
+				23514E49205D6B56008A162A /* HJLayoutAndPanViewUtils.h */,
+				23514E4A205D6B56008A162A /* HJLayoutAndPanViewUtils.m */,
+			);
+			path = MasonryMove;
+			sourceTree = "<group>";
+		};
+		886BDBF8FE0A79F7A5CA659E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E7F1FDDEAA83490AFF2A34 /* libPods-MasonryMove.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76F5B4ACC593CA440211878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				832F773639FDDF65D20964CE /* Pods-MasonryMove.debug.xcconfig */,
+				9915EB2328F417EED27C1973 /* Pods-MasonryMove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23514E26205CA2CB008A162A /* MasonryMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23514E3D205CA2CC008A162A /* Build configuration list for PBXNativeTarget "MasonryMove" */;
+			buildPhases = (
+				E1CAEE7A1EB440D313C3E364 /* [CP] Check Pods Manifest.lock */,
+				23514E23205CA2CB008A162A /* Sources */,
+				23514E24205CA2CB008A162A /* Frameworks */,
+				23514E25205CA2CB008A162A /* Resources */,
+				93E847492914C6AE66C6188B /* [CP] Embed Pods Frameworks */,
+				09E16EF20B56DE6FBDD56340 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonryMove;
+			productName = MasonryMove;
+			productReference = 23514E27205CA2CB008A162A /* MasonryMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23514E1F205CA2CB008A162A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Cerko;
+				TargetAttributes = {
+					23514E26205CA2CB008A162A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23514E22205CA2CB008A162A /* Build configuration list for PBXProject "MasonryMove" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23514E1E205CA2CB008A162A;
+			productRefGroup = 23514E28205CA2CB008A162A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23514E26205CA2CB008A162A /* MasonryMove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23514E25205CA2CB008A162A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23514E37205CA2CC008A162A /* LaunchScreen.storyboard in Resources */,
+				23514E34205CA2CC008A162A /* Assets.xcassets in Resources */,
+				23514E32205CA2CB008A162A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E16EF20B56DE6FBDD56340 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryMove/Pods-MasonryMove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E847492914C6AE66C6188B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryMove/Pods-MasonryMove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CAEE7A1EB440D313C3E364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23514E23205CA2CB008A162A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23514E4B205D6B56008A162A /* HJLayoutAndPanViewUtils.m in Sources */,
+				23514E2F205CA2CB008A162A /* ViewController.m in Sources */,
+				23514E3A205CA2CC008A162A /* main.m in Sources */,
+				23514E2C205CA2CB008A162A /* AppDelegate.m in Sources */,
+				23514E45205D5064008A162A /* NSObject+KeyValueStoreUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23514E30205CA2CB008A162A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23514E31205CA2CB008A162A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23514E35205CA2CC008A162A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23514E36205CA2CC008A162A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23514E3B205CA2CC008A162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23514E3C205CA2CC008A162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23514E3E205CA2CC008A162A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832F773639FDDF65D20964CE /* Pods-MasonryMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F4E6QVLDT;
+				INFOPLIST_FILE = MasonryMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerko.MasonryMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23514E3F205CA2CC008A162A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9915EB2328F417EED27C1973 /* Pods-MasonryMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F4E6QVLDT;
+				INFOPLIST_FILE = MasonryMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cerko.MasonryMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23514E22205CA2CB008A162A /* Build configuration list for PBXProject "MasonryMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23514E3B205CA2CC008A162A /* Debug */,
+				23514E3C205CA2CC008A162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23514E3D205CA2CC008A162A /* Build configuration list for PBXNativeTarget "MasonryMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23514E3E205CA2CC008A162A /* Debug */,
+				23514E3F205CA2CC008A162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23514E1F205CA2CB008A162A /* Project object */;
+}
